@@ -1,5 +1,5 @@
 # NeoML/docs/en/requirements.txt
-sphinx==2.4.0
+sphinx==3.3.0
 sphinx-rtd-theme==0.5.1  # Pretty-looking theme for generated HTMLs
 nbsphinx==0.8.3  # Add .ipynb support to sphinx docs
 pandoc==1.0.2  # Required for markdown cells in nbsphinx

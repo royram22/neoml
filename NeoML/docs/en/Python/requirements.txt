@@ -1,5 +1,5 @@
 # NeoML/docs/en/requirements.txt
-sphinx==2.4.0
+sphinx==3.3.0
 sphinx-rtd-theme==0.5.1  # Pretty-looking theme for generated HTMLs
 nbsphinx==0.8.3  # Add .ipynb support to sphinx docs
 pandoc==1.0.2  # Required for markdown cells in nbsphinx
@@ -12,9 +12,11 @@ sphinx-copybutton==0.3.1  # Add 'copy to clipboard' button to code snippets
 cmake==3.18.4
 ninja==1.10.0
 setuptools==65.5.1
-numpy>=1.19.1
+numpy>=1.22.2
 scipy>=1.5.2
 pybind11-global==2.6.1
 
 # https://github.com/pydata/xarray/issues/5299#issuecomment-840730954
-jinja2<3.0
+jinja2<3.1.4
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
